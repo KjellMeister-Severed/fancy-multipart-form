@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="height: 100%; overflow-y: hidden">
+    <main>
+        <div class="hider-top" style="position: fixed;  height:45vh; width: 100vw;"></div>
+        <form action="#">
+            <section class="form-group">
+                <div>
+                    <h2>Welcome to my fancy form test!</h2>
+                    <a href="#2">next</a>
+                </div>
+            </section>
+            <section id="2" class="form-group">
+                <div>
+                    <h2>Manual Scrolling is disabled</h2>
+                    <input type="text" style="width: 100%; margin-top: 1rem" name="text">
+                    <a href="#3">next</a>
+                </div>
+            </section>            <section id="3" class="form-group">
+                <div>
+                    <h2>This is all 1 form.</h2>
+                    <a href="#4">next</a>
+                </div>
+            </section>            <section id="4" class="form-group">
+                <div>
+                    <h2>Navigation is happens with anchors</h2>
+                    <a href="#5">next</a>
+                </div>
+            </section>            <section id="5" class="form-group">
+                <div>
+                    <h2>You can place form inputs in all these sections.</h2>
+                    <input type="submit">
+                </div>
+            </section>
+        </form>
+        <div class="hider-bottom" style="position: fixed; bottom: 0; height: 45vh; width: 100vw;"></div>
+    </main>
+</body>
+</html>

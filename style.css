@@ -1,0 +1,44 @@
+main{
+    overflow-x: hidden;
+}
+
+body{
+    font-family: Bahnschrift, sans-serif;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+a{
+    color: white;
+    background-color: brown;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin: 2rem auto auto;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+form section{
+    height: 100vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hider-bottom{
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,100,1));
+}
+
+.hider-top{
+    background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(255,255,100,1));
+}
+
+html{
+    scroll-behavior: smooth;
+}
